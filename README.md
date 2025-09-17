@@ -2,8 +2,8 @@
 
 This repository contains a collection of beginner-friendly Python projects and code examples. Each project is designed to:
 
-Strengthen your problem-solving skills
+1-Strengthen your problem-solving skills
 
-Reinforce your understanding of core Python concepts
+2-Reinforce your understanding of core Python concepts
 
-Provide hands-on experience through practical coding exercises
+3-Provide hands-on experience through practical coding exercises
