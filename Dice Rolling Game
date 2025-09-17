@@ -1,0 +1,23 @@
+import random  # first I have imported the library so I can use random numbers
+
+count = 0  # declared counter to use below
+
+while True:  # used while loop here to make it infinite or till it gets to break
+
+    answer = input("Roll the dice (y/n): ").lower()  # used input to take input from user and lower to make any answer lower case
+
+    if answer == "y":  # used if statement to compare between two options
+        First_Die = random.randint(1, 6)  # declared First Die and used the random library
+        Second_Die = random.randint(1, 6)  # same here
+        # n = int(input(" how many dice you want to roll")) (this line is for extra fun in the code)
+        count += 1
+        # rolls = [random.randint(1, 6) for _ in range(num_dice)] (this line is more advanced than the others (it creates an array out of user input to take as the number of dice))
+        print(f"({First_Die},{Second_Die})")  # give you the output of the randomisation
+        print(f"Dice Rolled {count} Times")  # prints the counter value
+
+    elif answer == "n":  # if the first if didn’t work this is the alternative
+        print("Thanks for playing!!")
+        break  # this will exit the loop
+
+    else:  # if neither worked this would be the choice
+        print("invalid choice!!")
